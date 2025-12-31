@@ -1,0 +1,29 @@
+/* Simple fade-in and glow animations */
+
+/* Fade-in sections on scroll */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Neon text flicker */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: 0 0 2px cyan, 0 0 5px cyan;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: flicker 2s infinite;
+}
