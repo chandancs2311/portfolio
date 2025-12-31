@@ -24,7 +24,7 @@ const certificates = [
     file: "https://drive.google.com/file/d/1SaDSonnEMdrqcyE8Wyc6e660hYYsVLug/view?usp=sharing",
   },
   {
-    title: "Intern Acmegrade",
+    title: "Intern Psiog digital(P) Ltd",
     file: "https://drive.google.com/file/d/1fxPs5vn1Be5RgM9hkgZ4lu99O6bhm7EE/view?usp=sharing",
   },
 ];
